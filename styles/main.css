@@ -67,7 +67,6 @@ html {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid rgb(181, 173, 173);
-  
     position: relative;
     top: -10px;
     left: 200px;
@@ -104,6 +103,7 @@ html {
 }
 
 .authors img {
+    /* display: inline-flex; */
     resize: both;
     height: 40px;
     width: 40px;
