@@ -1,9 +1,4 @@
-* {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-
+/* 
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -23,25 +18,19 @@ html {
     column-count: 3;
     column-gap: 18em;
     display: flex;
-   
-    
-
 
 }
 
 .octocat {
-
     float: left;
     width: 150px;
     position: relative;
     top: 0px;
-    left: 0px;
-    
+    left: 0px;  
 }
 
 .octocat a {
     font-weight: bold;
-
 }
 
 .octocat img {
@@ -103,11 +92,127 @@ html {
 }
 
 .authors img {
-    /* display: inline-flex; */
+    display: inline-flex;
     resize: both;
     height: 40px;
     width: 40px;
     border: 2px solid rgb(197, 197, 200);
+} */
+
+/* ------------ above is my original CSS --------------- */
+
+
+
+
+
+/* in class work 8/31 */
+
+/* -------------------------------- */
+
+:root {
+    --primary-gray: #c6bdbd;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
 
+img {
+    width: 100%;
+}
+
+.octodex {
+    display: flex;
+}
+
+.octocat {
+    flex: 1;
+    margin: auto 15px;
+}
+
+.image-footer { 
+    display: flex;
+}
+
+.authors > li > a {
+    width: 30px;
+    display: inline-block;
+}
+
+.image-caption {
+    display: flex;
+    margin-left: auto;
+}
+
+/* ---------above was second part------------ */
+/* ----------------------------------- */
+
+
+
+/* .octodex {
+    display: inline-block;
+    width: 99%;
+    margin: 10px auto;
+}
+
+.octocat {
+    display: inline-block;
+    width: 30%;
+}
+
+.octocat > a {
+    display: inline-block;
+    border: solid 1px #E3601F;
+    border-radius: 3px;
+    position: relative;
+}
+
+.octocat > a::after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: solid 10px #E3601F;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent ;
+    position: absolute;
+    top: 100%;
+    right: 2%;
+}
+
+.image-number::before {
+    content: "#";
+}
+
+.image-footer {
+    border-bottom: 1px var(--primary-gray);
+    padding: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.authors > li > a {
+    display: inline-block;
+    width: 30px;
+}
+
+.image-caption {
+    text-align: right;
+}
+
+.authors {
+    display: inline-block;
+}
+
+.image-number {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.authors img {
+    vertical-align: middle;
+    border-radius: 5px;
+} */
